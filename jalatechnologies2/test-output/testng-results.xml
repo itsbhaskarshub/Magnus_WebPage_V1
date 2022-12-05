@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="5" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-01T22:42:55 IST" name="Default suite" finished-at="2022-12-01T22:45:06 IST" duration-ms="130747">
+    <groups>
+    </groups>
+    <test started-at="2022-12-01T22:42:55 IST" name="Default test" finished-at="2022-12-01T22:45:06 IST" duration-ms="130747">
+      <class name="com.testscenarios.TestCase_20_DataDrivenByCSVFile">
+        <test-method is-config="true" signature="Login()[pri:0, instance:com.testscenarios.TestCase_20_DataDrivenByCSVFile@4d4d8fcf]" started-at="2022-12-01T22:42:55 IST" name="Login" finished-at="2022-12-01T22:43:12 IST" duration-ms="17381" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="Create_Employee(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testscenarios.TestCase_20_DataDrivenByCSVFile@4d4d8fcf]" started-at="2022-12-01T22:43:14 IST" name="Create_Employee" data-provider="Employee_Details" finished-at="2022-12-01T22:43:15 IST" duration-ms="524" status="FAIL">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+            <param index="4">
+              <value is-null="true"/>
+            </param>
+            <param index="5">
+              <value is-null="true"/>
+            </param>
+            <param index="6">
+              <value is-null="true"/>
+            </param>
+            <param index="7">
+              <value is-null="true"/>
+            </param>
+            <param index="8">
+              <value is-null="true"/>
+            </param>
+            <param index="9">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Keys to send should be a not null CharSequence]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:92)
+at com.testscenarios.TestCase_20_DataDrivenByCSVFile.Create_Employee(TestCase_20_DataDrivenByCSVFile.java:63)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Create_Employee -->
+        <test-method signature="Create_Employee(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testscenarios.TestCase_20_DataDrivenByCSVFile@4d4d8fcf]" started-at="2022-12-01T22:43:15 IST" name="Create_Employee" data-provider="Employee_Details" finished-at="2022-12-01T22:43:37 IST" duration-ms="22291" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[John]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Smith]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Employee1@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9554056438]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[10/09/1991]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[13-01-20-01]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Hyderabad]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[AWS]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Create_Employee -->
+        <test-method signature="Create_Employee(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testscenarios.TestCase_20_DataDrivenByCSVFile@4d4d8fcf]" started-at="2022-12-01T22:43:37 IST" name="Create_Employee" data-provider="Employee_Details" finished-at="2022-12-01T22:43:59 IST" duration-ms="21988" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jode]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Maker]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Employee2@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9554056439]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[10/09/1992]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Female]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[13-01-20-02]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Hyderabad]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[DevOps]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Create_Employee -->
+        <test-method signature="Create_Employee(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testscenarios.TestCase_20_DataDrivenByCSVFile@4d4d8fcf]" started-at="2022-12-01T22:43:59 IST" name="Create_Employee" data-provider="Employee_Details" finished-at="2022-12-01T22:44:21 IST" duration-ms="22148" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Filip]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Qerty]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Employee3@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9554056432]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[10/09/1993]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[13-01-20-03]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Hyderabad]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[AWS]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Create_Employee -->
+        <test-method signature="Create_Employee(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testscenarios.TestCase_20_DataDrivenByCSVFile@4d4d8fcf]" started-at="2022-12-01T22:44:21 IST" name="Create_Employee" data-provider="Employee_Details" finished-at="2022-12-01T22:44:43 IST" duration-ms="21994" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sown]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Shown]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Employee4@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9554056433]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[10/09/1994]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Female]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[13-01-20-04]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Hyderabad]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[DevOps]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Create_Employee -->
+        <test-method signature="Create_Employee(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testscenarios.TestCase_20_DataDrivenByCSVFile@4d4d8fcf]" started-at="2022-12-01T22:44:43 IST" name="Create_Employee" data-provider="Employee_Details" finished-at="2022-12-01T22:45:05 IST" duration-ms="22054" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[samtha]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Firewood]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Employee5@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9554056440]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[10/09/1995]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Female]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[13-01-20-05]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Hyderabad]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[QA-Automation]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Create_Employee -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:com.testscenarios.TestCase_20_DataDrivenByCSVFile@4d4d8fcf]" started-at="2022-12-01T22:45:05 IST" name="CloseBrowser" finished-at="2022-12-01T22:45:06 IST" duration-ms="315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- com.testscenarios.TestCase_20_DataDrivenByCSVFile -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
